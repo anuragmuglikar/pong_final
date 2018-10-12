@@ -1,6 +1,15 @@
 # PONG GAME
 ## Group 1
+
 This is a read-me file for the lab assignment 3. Design a Pong Game using a GLCD, TFT Touchscreen and an acclerometer.
+Playing the Game
+**playing the game**
+1.	On the home screen Click “Let’s Play”.
+2.	Select the mode of the game. 1 Player or 2 Player on the mode selection screen.
+3.	In 1 player mode, use the accelerometer to control the movement of paddle for player 1. Player 2 is control by the bot. In 2 player mode, the paddles are controlled by touch screen.
+4.	In the next screen, select the difficulty level by clicking appropriate option.
+5.	The game starts. After dropping a point, the game waits for 2 secs before the ball starts moving in a random direction from the center so that the players can resettle and focus on the game.
+6.	Once the game is complete, the players are taken back to home screen after flashing the end screen for 5 secs.
 
 ### Methods
 **void lcd_init(void)**
